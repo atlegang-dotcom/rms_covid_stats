@@ -1,0 +1,22 @@
+{
+  "name": "rms_covid_stats_cal",
+  "version": "1.0.0",
+  "description": "returns_covid_data_such_as_daily_confirmed_cases_total_deaths_total_active_cases_total_cases_etc_",
+  "license": "Unlicense",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0",
+    "querystring": "0.2.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
